@@ -13,6 +13,10 @@
 .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E5E5E5;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
 }
 
 .main-content {
@@ -20,7 +24,7 @@
 }
 .container{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 3fr;
       height: 100vh;
 
@@ -39,6 +43,7 @@
     grid-column: 2/3;
     display: grid;
     min-height: 150px;
+    padding: 20px;
     
 }
 
@@ -124,4 +129,26 @@
     border-radius: 8px;
      border-left: 5px solid #FFD700;
     
+}
+.header svg{
+    width: 30px;
+    height: 30px;
+}
+.header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   justify-content: stretch;
+    padding-right: 20px;
+}
+.header .second{
+ justify-content: space-around;
+}
+button{
+    background-color: #1099D6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
 }
