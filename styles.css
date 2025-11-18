@@ -20,7 +20,7 @@
 }
 
 .main-content {
-    background-color: #D3D3D3;
+    background-color:#F5F5F5;
 }
 .container{
     display: grid;
@@ -107,7 +107,9 @@
      gap: 10px;
     padding-left: 50px;
 }
-
+.header>div:last-child{
+   justify-content: space-around;
+}
 /* Make the SVG logo white */
 .sidebar svg {
     fill: white;
