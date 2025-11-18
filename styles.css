@@ -95,3 +95,33 @@
 .card{
     overflow: hidden;
 }
+.sidebar > div:first-child {
+    display: flex;
+    align-items: center;
+
+     gap: 10px;
+    padding-left: 50px;
+}
+
+/* Make the SVG logo white */
+.sidebar svg {
+    fill: white;
+    width: 40px;
+    height: 40px;
+}
+.sidebar li svg {
+    width: 20px;
+    height: 20px;
+}
+.sidebar li{
+    display: flex;
+     gap: 10px;
+    padding: 15px; 
+}
+.card{
+      margin: 10px;  
+    background-color: #FFFFFF;
+    border-radius: 8px;
+     border-left: 5px solid #FFD700;
+    
+}
